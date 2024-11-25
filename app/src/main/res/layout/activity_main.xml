@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- Judul -->
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Pemilih Saat ini"
+        android:layout_marginTop="50dp"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:listitem="@layout/item_disaster" />
+
+    <!-- Button Logout -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_tambah"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:text="tambah pemilih"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Button Logout -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_logout"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="16dp"
+        android:text="Log Out"
+        android:background="@drawable/shape"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

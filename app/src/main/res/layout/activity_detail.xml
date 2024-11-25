@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <!-- Judul -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail Data Pemilih"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Nama -->
+    <TextView
+        android:id="@+id/tv_nama_pemilih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama: "
+        android:padding="16dp"
+        android:background="@drawable/shape"
+        android:layout_marginBottom="16dp" />
+
+    <!-- NIK -->
+    <TextView
+        android:id="@+id/tv_nik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIK: "
+        android:padding="16dp"
+        android:background="@drawable/shape"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Gender -->
+    <TextView
+        android:id="@+id/tv_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin: "
+        android:padding="16dp"
+        android:background="@drawable/shape"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Alamat -->
+    <TextView
+        android:id="@+id/tv_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat: "
+        android:padding="16dp"
+        android:background="@drawable/shape"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tombol Kembali -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_back"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:text="Kembali"
+        android:padding="16dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>
